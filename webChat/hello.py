@@ -5,6 +5,7 @@ import re
 from pandas import DataFrame
 # soure from https://github.com/youfou/wxpy python 2-3
 # soure from https://github.com/liuwons/wxBot python 2
+# soure from https://itchat.readthedocs.io/zh/latest/
 
 #print(sys.stdout.encoding)
 #sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())

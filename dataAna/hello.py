@@ -1,5 +1,9 @@
-import tensorflow as tf
-hello = tf.constant('hello tensorflow')
+import pandas as pd
+from sklearn.datasets import load_iris
+data = load_iris()
+df = pd.DataFrame(data.data, columns=data.feature_names)
+df.info()
+df.head()
 
-sess = tf.Session()
-print(sess.run(hello))
+df.describe()
+df.values
